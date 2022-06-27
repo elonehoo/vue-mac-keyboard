@@ -25,7 +25,7 @@ export default defineConfig({
   ],
   build: {
     watch: {
-      include: ["src/**/*.*"],
+      include: ["src/*.*"],
     },
     outDir: "./dist",
     lib: {
