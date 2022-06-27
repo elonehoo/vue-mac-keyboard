@@ -16,7 +16,7 @@ export default defineConfig({
   ],
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/index.ts'),
+      entry: path.resolve(__dirname, 'lib/index.js'),
       name: 'vue-mac-keyboard',
       // the proper extensions will be added
       fileName: 'index'
