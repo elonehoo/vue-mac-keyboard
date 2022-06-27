@@ -30,9 +30,9 @@ export default defineConfig({
     outDir: "./dist",
     lib: {
       formats: ["es"],
-      entry: path.resolve(__dirname, "src/index.ts"),
+      entry: path.resolve(__dirname, "./src/index.ts"),
       name: "index",
-      fileName: () => "index.js",
+      fileName: () => "index",
     },
     rollupOptions: {
       external: Object.keys(require("./package.json").peerDependencies),
