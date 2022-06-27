@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {vueMacKeyboard} from '@elonehoo/vue-mac-keyboard'
+import vueMacKeyboard from '@elonehoo/vue-mac-keyboard'
 
 const keycode: number[] = $ref([])
 
