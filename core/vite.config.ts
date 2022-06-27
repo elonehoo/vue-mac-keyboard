@@ -15,18 +15,21 @@ export default defineConfig({
     }),
   ],
   build: {
-    watch: {
-      include: ["src/*.*"],
-    },
-    outDir: "./dist",
     lib: {
-      formats: ["es"],
-      entry: path.resolve(__dirname, "src/index.ts"),
-      name: "index",
-      fileName: () => "index.js",
+      entry: path.resolve(__dirname, 'lib/main.ts'),
+      name: '@elonehoo/vue-mac-keyboard',
+      // the proper extensions will be added
+      fileName: 'vue-mac-keyboard'
     },
     rollupOptions: {
-      external: Object.keys(require("./package.json").peerDependencies),
-    },
-  },
+      // 确保外部化处理那些你不想打包进库的依赖
+      external: ['vue'],
+      output: {
+        // 在 UMD 构建模式下为这些外部化的依赖提供一个全局变量
+        globals: {
+          vue: 'Vue'
+        }
+      }
+    }
+  }
 })
