@@ -14,5 +14,14 @@
     "lint:fix": "eslint . --fix"
   },
   "author": "Elone Hoo <huchengyea@163.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@iconify-json/carbon": "^1.1.6",
+    "@unocss/reset": "^0.41.1",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "unocss": "^0.41.1",
+    "vue": "^3.2.37",
+    "vue-router": "^4.0.16",
+    "vue-tsc": "^0.38.2"
+  }
 }
