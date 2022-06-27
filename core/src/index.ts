@@ -1,3 +1,8 @@
-import vueMacKeyboard from './keyboard.vue'
+import { App } from "vue";
+import macKeyboard from "./keyboard.vue";
 
-export default vueMacKeyboard
+macKeyboard.install = function (Vue: App) {
+  Vue.component(macKeyboard.name, macKeyboard);
+};
+
+export default macKeyboard;
