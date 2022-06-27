@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import {ref} from 'vue'
 import { KeyCodeData } from './type'
 
 const keyCodeData:KeyCodeData[] = [
@@ -85,10 +86,23 @@ const keyCodeData:KeyCodeData[] = [
 interface Props {
   keyCode:number[]
 }
+
 const props = defineProps<Props>()
+
+const emit = defineEmits(['mac-mousedown','mac-mouseup'])
 
 function pressed(keycode:number):boolean {
   return props.keyCode.indexOf(keycode) > -1
+}
+
+const element = ref([])
+
+function mousedown(el:HTMLLIElement,item:KeyCodeData){
+  emit('mac-mousedown',el,item)
+}
+
+function mouseup(el:HTMLLIElement,item:KeyCodeData){
+  emit('mac-mouseup',el,item)
 }
 </script>
 
@@ -98,7 +112,10 @@ function pressed(keycode:number):boolean {
       <li
        v-for="(item,index) in keyCodeData"
        :key="index"
+       ref="element"
        :class="{pressed:pressed(item.keycode)}"
+       @mousedown="mousedown(element[index],item)"
+       @mouseup="mouseup(element[index],item)"
        :data-key="item.keycode">
         <span v-for="(_name,_index) in item.name" :key="_index">{{_name}}</span>
       </li>
