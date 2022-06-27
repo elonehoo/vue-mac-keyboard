@@ -1,5 +1,5 @@
 {
-  "name": "@vitem/example",
+  "name": "@elonehoo/example",
   "private":"true",
   "type": "module",
   "version": "0.0.0",
@@ -17,6 +17,7 @@
   "license": "MIT",
   "devDependencies": {
     "@iconify-json/carbon": "^1.1.6",
+    "@elonehoo/vue-mac-keyboard":"workspace:*",
     "@unocss/reset": "^0.41.1",
     "@vitejs/plugin-vue": "^2.3.3",
     "unocss": "^0.41.1",

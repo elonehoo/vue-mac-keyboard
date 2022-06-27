@@ -1,3 +1,3 @@
-import Main from "./main.vue"
+import vueMacKeyboard from "./keyboard.vue"
 
-export default Main
+export default vueMacKeyboard
