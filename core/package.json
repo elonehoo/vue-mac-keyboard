@@ -18,8 +18,7 @@
   "homepage": "https://github.com/elonehoo/vue-mac-keyboard#readme",
   "bugs": "https://github.com/elonehoo/vue-mac-keyboard/issues",
   "scripts": {
-    "build": "unbuild",
-    "stub": "unbuild --stub",
+    "build": "rimraf dist && vite build -w false",
     "prepublishOnly": "pnpm run build",
     "test": "vitest"
   },
@@ -33,7 +32,6 @@
     "bumpp": "^8.2.1",
     "rimraf": "^3.0.2",
     "ts-node": "^10.7.0",
-    "unbuild": "^0.7.4",
     "vue-tsc": "^0.34.7"
   }
 }
