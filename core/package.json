@@ -19,8 +19,7 @@
   "files": [
     "dist"
   ],
-  "main": "dist/vue-mac-keyboard.umd.js",
-  "types": "dist/vue-mac-keyboard.es.js",
+  "main": "./src/index.ts",
   "scripts": {
     "build": "rimraf dist && vite build",
     "prepublishOnly": "pnpm run build",
