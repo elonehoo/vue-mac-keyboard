@@ -26,7 +26,7 @@
     }
   },
   "scripts": {
-    "build": "rimraf dist && vite build",
+    "build": "vite build",
     "prepublishOnly": "pnpm run build",
     "test": "vitest"
   },
