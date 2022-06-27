@@ -124,7 +124,7 @@ function mouseup(el: HTMLLIElement, item: KeyCodeData) {
   </div>
 </template>
 
-<style lang="less" scoped>
+<style lang="less">
 @w-keyboard:~"w-mac-keyboard";
 
 .@{w-keyboard} {
