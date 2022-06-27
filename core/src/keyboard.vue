@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import {ref} from 'vue'
-import { KeyCodeData } from './type'
+import { ref } from 'vue'
+import type { KeyCodeData } from './type'
 
-const keyCodeData:KeyCodeData[] = [
+const keyCodeData: KeyCodeData[] = [
   { keycode: 27, name: ['esc'] },
   { keycode: 112, name: ['F1'] },
   { keycode: 113, name: ['F2'] },
@@ -80,29 +80,29 @@ const keyCodeData:KeyCodeData[] = [
   { keycode: 37, name: ['◀'] },
   { keycode: 38, name: ['▲'] },
   { keycode: 39, name: ['▶'] },
-  { keycode: 40, name: ['▼'] }
+  { keycode: 40, name: ['▼'] },
 ]
 
 interface Props {
-  keyCode:number[]
+  keyCode: number[]
 }
 
 const props = defineProps<Props>()
 
-const emit = defineEmits(['mac-mousedown','mac-mouseup'])
+const emit = defineEmits(['mac-mousedown', 'mac-mouseup'])
 
-function pressed(keycode:number):boolean {
-  return props.keyCode.indexOf(keycode) > -1
+function pressed(keycode: number): boolean {
+  return props.keyCode.includes(keycode)
 }
 
 const element = ref([])
 
-function mousedown(el:HTMLLIElement,item:KeyCodeData){
-  emit('mac-mousedown',el,item)
+function mousedown(el: HTMLLIElement, item: KeyCodeData) {
+  emit('mac-mousedown', el, item)
 }
 
-function mouseup(el:HTMLLIElement,item:KeyCodeData){
-  emit('mac-mouseup',el,item)
+function mouseup(el: HTMLLIElement, item: KeyCodeData) {
+  emit('mac-mouseup', el, item)
 }
 </script>
 
@@ -110,14 +110,15 @@ function mouseup(el:HTMLLIElement,item:KeyCodeData){
   <div class="w-mac-keyboard">
     <ul>
       <li
-       v-for="(item,index) in keyCodeData"
-       :key="index"
-       ref="element"
-       :class="{pressed:pressed(item.keycode)}"
-       @mousedown="mousedown(element[index],item)"
-       @mouseup="mouseup(element[index],item)"
-       :data-key="item.keycode">
-        <span v-for="(_name,_index) in item.name" :key="_index">{{_name}}</span>
+        v-for="(item,index) in keyCodeData"
+        :key="index"
+        ref="element"
+        :class="{pressed:pressed(item.keycode)}"
+        :data-key="item.keycode"
+        @mousedown="mousedown(element[index],item)"
+        @mouseup="mouseup(element[index],item)"
+      >
+        <span v-for="(_name,_index) in item.name" :key="_index">{{ _name }}</span>
       </li>
     </ul>
   </div>
@@ -219,7 +220,6 @@ function mouseup(el:HTMLLIElement,item:KeyCodeData){
     }
   }
 }
-
 
 .@{w-keyboard} {
   li:nth-child(15) span,

@@ -1,15 +1,15 @@
 {
   "name": "@elonehoo/test",
   "type":"module",
-  "private":"true",
   "version": "0.0.0",
+  "private":"true",
   "description": "",
+  "license": "MIT",
+  "author": "Elone Hoo <huchengyea@163.com>",
   "main": "index.js",
   "scripts": {
     "test":"vitest"
   },
-  "author": "Elone Hoo <huchengyea@163.com>",
-  "license": "MIT",
   "devDependencies": {
     "vitest": "^0.16.0"
   }

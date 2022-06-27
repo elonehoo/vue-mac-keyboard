@@ -1,4 +1,4 @@
-export type KeyCodeData = {
-  keycode: number;
-  name: string[];
+export interface KeyCodeData {
+  keycode: number
+  name: string[]
 }

@@ -1,9 +1,11 @@
 {
   "name": "@elonehoo/example",
-  "private":"true",
   "type": "module",
   "version": "0.0.0",
+  "private":"true",
   "description": "",
+  "license": "MIT",
+  "author": "Elone Hoo <huchengyea@163.com>",
   "main": "index.js",
   "scripts": {
     "dev": "vite --port 3333 --open",
@@ -13,11 +15,9 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
-  "author": "Elone Hoo <huchengyea@163.com>",
-  "license": "MIT",
   "devDependencies": {
-    "@iconify-json/carbon": "^1.1.6",
     "@elonehoo/vue-mac-keyboard":"workspace:*",
+    "@iconify-json/carbon": "^1.1.6",
     "@unocss/reset": "^0.41.1",
     "@vitejs/plugin-vue": "^2.3.3",
     "unocss": "^0.41.1",

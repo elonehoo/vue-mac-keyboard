@@ -1,8 +1,8 @@
 {
   "name": "@elonehoo/monorepo",
-  "private": true,
   "type": "module",
   "version": "0.0.1",
+  "private": true,
   "packageManager": "pnpm@7.0.0",
   "scripts": {
     "prepare": "pnpm -r run stub",

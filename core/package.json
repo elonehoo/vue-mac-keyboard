@@ -1,19 +1,21 @@
 {
   "name": "@elonehoo/vue-mac-keyboard",
-  "version": "0.0.1",
   "type": "module",
+  "version": "0.0.1",
   "description": "",
   "keywords": [
     "vue",
     "mac",
     "keyboard"
   ],
-  "main": "./src/index.ts",
-  "homepage": "https://github.com/elonehoo/vue-mac-keyboard#readme",
+  "license": "MIT",
+  "author": "Elone Hoo <huchengyea@163.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elonehoo/vue-mac-keyboard"
   },
+  "main": "./src/index.ts",
+  "homepage": "https://github.com/elonehoo/vue-mac-keyboard#readme",
   "bugs": "https://github.com/elonehoo/vue-mac-keyboard/issues",
   "scripts": {
     "build": "rimraf dist && unbuild",
@@ -21,10 +23,9 @@
     "prepublishOnly": "pnpm run build",
     "test": "vitest"
   },
-  "author": "Elone Hoo <huchengyea@163.com>",
-  "license": "MIT",
   "dependencies": {
-    "less": "^4.1.3"
+    "less": "^4.1.3",
+    "vue": "^3.2.37"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",
