@@ -3,7 +3,18 @@
   "version": "0.0.0",
   "type": "module",
   "description": "",
+  "keywords": [
+    "vue",
+    "mac",
+    "keyboard"
+  ],
   "main": "./src/index.ts",
+  "homepage": "https://github.com/elonehoo/vue-mac-keyboard#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elonehoo/vue-mac-keyboard"
+  },
+  "bugs": "https://github.com/elonehoo/vue-mac-keyboard/issues",
   "scripts": {
     "build": "rimraf dist && unbuild",
     "stub": "unbuild --stub",
