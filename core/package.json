@@ -18,7 +18,7 @@
   "homepage": "https://github.com/elonehoo/vue-mac-keyboard#readme",
   "bugs": "https://github.com/elonehoo/vue-mac-keyboard/issues",
   "scripts": {
-    "build": "rimraf dist && vite build -w false",
+    "build": "rimraf dist && vite build",
     "prepublishOnly": "pnpm run build",
     "test": "vitest"
   },
