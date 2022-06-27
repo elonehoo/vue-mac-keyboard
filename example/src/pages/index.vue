@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import macKeyboard from '@elonehoo/vue-mac-keyboard'
+import {keyboard} from '@elonehoo/vue-mac-keyboard'
 
 const keycode: number[] = $ref([])
 
@@ -15,6 +15,6 @@ function macMouseup(el: any, item: any) {
 
 <template>
   <div style="margin-top:10px">
-    <macKeyboard :key-code="keycode" @mac-mousedown="macMousedown" @mac-mouseup="macMouseup" />
+    <keyboard :key-code="keycode" @mac-mousedown="macMousedown" @mac-mouseup="macMouseup" />
   </div>
 </template>
