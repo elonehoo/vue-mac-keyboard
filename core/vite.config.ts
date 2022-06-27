@@ -19,7 +19,7 @@ export default defineConfig({
       entry: path.resolve(__dirname, 'lib/main.ts'),
       name: '@elonehoo/vue-mac-keyboard',
       // the proper extensions will be added
-      fileName: 'vue-mac-keyboard'
+      fileName: 'index'
     },
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖
