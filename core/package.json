@@ -1,0 +1,26 @@
+{
+  "name": "@vitem/main",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "rimraf dist && unbuild",
+    "stub": "unbuild --stub",
+    "prepublishOnly": "pnpm run build",
+    "test": "vitest"
+  },
+  "author": "Elone Hoo <huchengyea@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@unocss/reset": "^0.41.1",
+    "unocss": "^0.41.1",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/compiler-sfc": "^3.2.33",
+    "bumpp": "^8.2.1",
+    "rimraf": "^3.0.2",
+    "unbuild": "^0.7.4",
+    "ts-node": "^10.7.0",
+    "vue-tsc": "^0.34.7"
+  }
+}

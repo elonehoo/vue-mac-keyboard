@@ -1,0 +1,16 @@
+{
+  "name": "@vitem/test",
+  "type":"module",
+  "private":"true",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test":"vitest"
+  },
+  "author": "Elone Hoo <huchengyea@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^0.16.0"
+  }
+}
