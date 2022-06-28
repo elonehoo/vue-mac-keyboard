@@ -1,8 +1,9 @@
 {
   "name": "@elonehoo/monorepo",
   "type": "module",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "private": true,
+  "description": "Macbook computer keyboard style for vue component.",
   "packageManager": "pnpm@7.0.0",
   "scripts": {
     "release": "bumpp package.json core/package.json --commit --push --tag && pnpm -r publish --access public",
