@@ -23,3 +23,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+__unconfig_vite.config.ts

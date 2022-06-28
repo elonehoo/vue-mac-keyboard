@@ -2,7 +2,7 @@
   "name": "@elonehoo/vue-mac-keyboard",
   "type": "module",
   "version": "0.0.16",
-  "description": "",
+  "description": "Macbook computer keyboard style for vue component.",
   "keywords": [
     "vue",
     "mac",
