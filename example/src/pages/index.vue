@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import macKeyboard from '@elonehoo/vue-mac-keyboard'
+import macKeyboard, { KeyCodeData } from '@elonehoo/vue-mac-keyboard'
 
 const keycode: number[] = $ref([])
 
-function macMousedown(el: any, item: any) {
+function macMousedown(el: HTMLLIElement, item: KeyCodeData) {
   if (item.keycode > -1)
     keycode.push(item.keycode)
 }
 
-function macMouseup(el: any, item: any) {
+function macMouseup(el: HTMLLIElement, item: KeyCodeData) {
   keycode.splice(0, keycode.length)
 }
 </script>
