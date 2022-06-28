@@ -25,6 +25,9 @@ jobs:
       - name: Install
         run: pnpm install
 
+      - name: Run core Build
+        run: pnpm run build:dev
+
       - name: Run Build
         run: pnpm run example:build
 
