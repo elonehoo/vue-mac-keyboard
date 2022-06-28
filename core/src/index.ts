@@ -1,10 +1,10 @@
-import { App } from "vue";
-import macKeyboard from "./keyboard.vue";
+import type { App } from 'vue'
+import macKeyboard from './keyboard.vue'
 
 const install = (Vue: App) => {
-    Vue.component(macKeyboard.name, macKeyboard);
+  Vue.component(macKeyboard.name, macKeyboard)
 }
 
-export {macKeyboard}
+export { macKeyboard }
 
-export default {install};
+export default { install }

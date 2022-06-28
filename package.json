@@ -12,7 +12,8 @@
     "lint:fix": "eslint . --fix",
     "example:dev": "pnpm -C example run dev",
     "example:build": "pnpm -C example run build",
-    "example:preview": "pnpm -C example run preview"
+    "example:preview": "pnpm -C example run preview",
+    "build:dev":"pnpm -C core run build:lib"
   },
   "dependencies": {
     "vue": "^3.2.37"

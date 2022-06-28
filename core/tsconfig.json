@@ -17,7 +17,7 @@
       "dom"
     ],
     "types": [
-      "vite/client",
+      "vite/client"
     ],
     "noImplicitAny": false
   },
@@ -28,6 +28,6 @@
   ],
   "exclude": [
     "node_modules",
-    "dist",
+    "dist"
   ]
 }

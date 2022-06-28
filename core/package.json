@@ -16,9 +16,6 @@
   },
   "homepage": "https://github.com/elonehoo/vue-mac-keyboard#readme",
   "bugs": "https://github.com/elonehoo/vue-mac-keyboard/issues",
-  "files": [
-    "dist"
-  ],
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
   "exports": {
@@ -27,6 +24,9 @@
       "require": "./dist/index.umd.js"
     }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rimraf dist && vite build",
     "prepublishOnly": "pnpm run build",
@@ -43,6 +43,7 @@
     "rimraf": "^3.0.2",
     "ts-node": "^10.7.0",
     "vite-plugin-dts": "^1.2.0",
+    "vite-plugin-libcss": "^1.0.5",
     "vue-tsc": "^0.34.7"
   }
 }

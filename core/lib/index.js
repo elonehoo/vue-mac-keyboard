@@ -1,2 +1,2 @@
-import keyboard from "../src/keyboard.vue"
-export { keyboard }
+import macKeyboard from '../src/keyboard.vue'
+export default macKeyboard
