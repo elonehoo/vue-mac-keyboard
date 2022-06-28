@@ -360,6 +360,6 @@ function mouseup(el: HTMLLIElement, item: KeyCodeData) {
   border-top-right-radius:0;
   position:absolute;
   bottom:0;
-  right:73px
+  right:84px
 }
 </style>

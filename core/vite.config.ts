@@ -2,6 +2,7 @@ import path from 'path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import libCss from 'vite-plugin-libcss'
+import dts from 'vite-plugin-dts'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -14,12 +15,17 @@ export default defineConfig({
     vue({
       reactivityTransform: true,
     }),
-    libCss()
+    libCss(),
+    dts({
+      tsConfigFilePath: "./tsconfig.json",
+      cleanVueFileName: true,
+      insertTypesEntry: true,
+    })
   ],
   build: {
     lib: {
       entry: path.resolve(__dirname, 'lib/index.js'),
-      name: 'vue-mac-keyboard',
+      name: 'vueMacKeyboard',
       // the proper extensions will be added
       fileName: 'index',
     },
