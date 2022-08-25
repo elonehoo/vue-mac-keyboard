@@ -17,12 +17,12 @@
   },
   "devDependencies": {
     "@elonehoo/vue-mac-keyboard":"workspace:*",
-    "@iconify-json/carbon": "^1.1.6",
+    "@iconify-json/carbon": "1.1.7",
     "@unocss/reset": "0.45.12",
-    "@vitejs/plugin-vue": "^2.3.3",
-    "unocss": "^0.41.1",
-    "vue": "^3.2.37",
-    "vue-router": "^4.0.16",
-    "vue-tsc": "^0.38.2"
+    "@vitejs/plugin-vue": "2.3.4",
+    "unocss": "0.41.2",
+    "vue": "3.2.37",
+    "vue-router": "4.1.4",
+    "vue-tsc": "0.38.9"
   }
 }

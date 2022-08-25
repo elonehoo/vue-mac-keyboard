@@ -37,13 +37,13 @@
     "vue": "^3.2.37"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.3.3",
-    "@vue/compiler-sfc": "^3.2.33",
-    "bumpp": "^8.2.1",
-    "rimraf": "^3.0.2",
-    "ts-node": "^10.7.0",
-    "vite-plugin-dts": "^1.2.0",
-    "vite-plugin-libcss": "^1.0.5",
-    "vue-tsc": "^0.34.7"
+    "@vitejs/plugin-vue": "2.3.4",
+    "@vue/compiler-sfc": "3.2.37",
+    "bumpp": "8.2.1",
+    "rimraf": "3.0.2",
+    "ts-node": "10.9.1",
+    "vite-plugin-dts": "1.4.1",
+    "vite-plugin-libcss": "1.0.5",
+    "vue-tsc": "0.34.17"
   }
 }
