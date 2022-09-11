@@ -19,7 +19,7 @@
     "@elonehoo/vue-mac-keyboard":"workspace:*",
     "@iconify-json/carbon": "1.1.7",
     "@unocss/reset": "0.45.18",
-    "@vitejs/plugin-vue": "2.3.4",
+    "@vitejs/plugin-vue": "3.1.0",
     "unocss": "0.41.2",
     "vue": "3.2.39",
     "vue-router": "4.1.5",

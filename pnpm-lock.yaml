@@ -27,7 +27,7 @@ importers:
 
   core:
     specifiers:
-      '@vitejs/plugin-vue': 2.3.4
+      '@vitejs/plugin-vue': 3.1.0
       '@vue/compiler-sfc': 3.2.39
       bumpp: 8.2.1
       rimraf: 3.0.2
@@ -39,7 +39,7 @@ importers:
     dependencies:
       vue: 3.2.37
     devDependencies:
-      '@vitejs/plugin-vue': 2.3.4_vue@3.2.37
+      '@vitejs/plugin-vue': 3.1.0_vue@3.2.37
       '@vue/compiler-sfc': 3.2.39
       bumpp: 8.2.1
       rimraf: 3.0.2
@@ -53,7 +53,7 @@ importers:
       '@elonehoo/vue-mac-keyboard': workspace:*
       '@iconify-json/carbon': 1.1.7
       '@unocss/reset': 0.45.18
-      '@vitejs/plugin-vue': 2.3.4
+      '@vitejs/plugin-vue': 3.1.0
       unocss: 0.41.2
       vue: 3.2.39
       vue-router: 4.1.5
@@ -62,7 +62,7 @@ importers:
       '@elonehoo/vue-mac-keyboard': link:../core
       '@iconify-json/carbon': 1.1.7
       '@unocss/reset': 0.45.18
-      '@vitejs/plugin-vue': 2.3.4_vue@3.2.39
+      '@vitejs/plugin-vue': 3.1.0_vue@3.2.39
       unocss: 0.41.2
       vue: 3.2.39
       vue-router: 4.1.5_vue@3.2.39
@@ -755,21 +755,21 @@ packages:
       magic-string: 0.26.2
     dev: true
 
-  /@vitejs/plugin-vue/2.3.4_vue@3.2.37:
-    resolution: {integrity: sha512-IfFNbtkbIm36O9KB8QodlwwYvTEsJb4Lll4c2IwB3VHc2gie2mSPtSzL0eYay7X2jd/2WX02FjSGTWR6OPr/zg==}
-    engines: {node: '>=12.0.0'}
+  /@vitejs/plugin-vue/3.1.0_vue@3.2.37:
+    resolution: {integrity: sha512-fmxtHPjSOEIRg6vHYDaem+97iwCUg/uSIaTzp98lhELt2ISOQuDo2hbkBdXod0g15IhfPMQmAxh4heUks2zvDA==}
+    engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      vite: ^2.5.10
+      vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
       vue: 3.2.37
     dev: true
 
-  /@vitejs/plugin-vue/2.3.4_vue@3.2.39:
-    resolution: {integrity: sha512-IfFNbtkbIm36O9KB8QodlwwYvTEsJb4Lll4c2IwB3VHc2gie2mSPtSzL0eYay7X2jd/2WX02FjSGTWR6OPr/zg==}
-    engines: {node: '>=12.0.0'}
+  /@vitejs/plugin-vue/3.1.0_vue@3.2.39:
+    resolution: {integrity: sha512-fmxtHPjSOEIRg6vHYDaem+97iwCUg/uSIaTzp98lhELt2ISOQuDo2hbkBdXod0g15IhfPMQmAxh4heUks2zvDA==}
+    engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      vite: ^2.5.10
+      vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
       vue: 3.2.39
