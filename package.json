@@ -4,7 +4,7 @@
   "version": "0.0.16",
   "private": true,
   "description": "Macbook computer keyboard style for vue component.",
-  "packageManager": "pnpm@7.0.0",
+  "packageManager": "pnpm@7.11.0",
   "scripts": {
     "release": "bumpp package.json core/package.json --commit --push --tag && pnpm -r publish --access public",
     "typeCheck": "tsc --noEmit",
@@ -24,7 +24,7 @@
     "@types/node": "18.7.13",
     "bumpp": "8.2.1",
     "eslint": "8.23.0",
-    "pnpm": "7.9.5",
+    "pnpm": "7.11.0",
     "rimraf": "3.0.2",
     "typescript": "4.8.3",
     "vite": "3.1.0"
