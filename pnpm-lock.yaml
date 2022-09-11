@@ -52,7 +52,7 @@ importers:
     specifiers:
       '@elonehoo/vue-mac-keyboard': workspace:*
       '@iconify-json/carbon': 1.1.7
-      '@unocss/reset': 0.45.12
+      '@unocss/reset': 0.45.18
       '@vitejs/plugin-vue': 2.3.4
       unocss: 0.41.2
       vue: 3.2.39
@@ -61,7 +61,7 @@ importers:
     devDependencies:
       '@elonehoo/vue-mac-keyboard': link:../core
       '@iconify-json/carbon': 1.1.7
-      '@unocss/reset': 0.45.12
+      '@unocss/reset': 0.45.18
       '@vitejs/plugin-vue': 2.3.4_vue@3.2.39
       unocss: 0.41.2
       vue: 3.2.39
@@ -714,8 +714,8 @@ packages:
     resolution: {integrity: sha512-/Ib51/7EG9Jb0D57mJPUohdGAB8YXaCL6vtol7RWnsv1kJL7mHJkccTDYN0vnE5RjvJGWhuCeOzeCaK4rM1/lw==}
     dev: true
 
-  /@unocss/reset/0.45.12:
-    resolution: {integrity: sha512-4HldzkLErjp90W9RMkMgnDbFQzZNz+cpLTB/3Wnj9UqvIBYAZ+gfZ7Y7YEntFKmHLMV1W+6emnuMNI4qS3B0Jg==}
+  /@unocss/reset/0.45.18:
+    resolution: {integrity: sha512-85T9tdRo86Legeus3HHCMvwUDJRWoUz2hcHrwVeI5J1mCgC0uw/0+BybOyzHBEW4uvFLp9n3tI6Z8x0k+7ZFMQ==}
     dev: true
 
   /@unocss/scope/0.41.2:
