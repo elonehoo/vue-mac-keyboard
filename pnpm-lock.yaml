@@ -32,7 +32,7 @@ importers:
       bumpp: 8.2.1
       rimraf: 3.0.2
       ts-node: 10.9.1
-      vite-plugin-dts: 1.4.1
+      vite-plugin-dts: 1.5.0
       vite-plugin-libcss: 1.0.5
       vue: ^3.2.37
       vue-tsc: 0.40.13
@@ -44,7 +44,7 @@ importers:
       bumpp: 8.2.1
       rimraf: 3.0.2
       ts-node: 10.9.1
-      vite-plugin-dts: 1.4.1
+      vite-plugin-dts: 1.5.0
       vite-plugin-libcss: 1.0.5
       vue-tsc: 0.40.13
 
@@ -3913,8 +3913,8 @@ packages:
     engines: {node: '>= 0.10'}
     dev: true
 
-  /vite-plugin-dts/1.4.1:
-    resolution: {integrity: sha512-jo7E4ZeheD2o48oGiI3EygPbej7ZkGFHg3GVTt7Wuo6NgzThLvuzGGuduaFpnhJOGi1piDFsu6oui/wDKIIORQ==}
+  /vite-plugin-dts/1.5.0:
+    resolution: {integrity: sha512-O78YnwomiEu+vKMdj1gvJfi2PnSOdB/RKWSOaNDjzr5bGvB6G7AskSczy+74sLwj3hkh0qO0L0U1UuLSjAqtqA==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: '>=2.4.4'
