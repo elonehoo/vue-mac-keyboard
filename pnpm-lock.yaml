@@ -27,7 +27,7 @@ importers:
 
   core:
     specifiers:
-      '@vitejs/plugin-vue': 3.1.0
+      '@vitejs/plugin-vue': 3.1.2
       '@vue/compiler-sfc': 3.2.39
       bumpp: 8.2.1
       rimraf: 3.0.2
@@ -39,7 +39,7 @@ importers:
     dependencies:
       vue: 3.2.37
     devDependencies:
-      '@vitejs/plugin-vue': 3.1.0_vue@3.2.37
+      '@vitejs/plugin-vue': 3.1.2_vue@3.2.37
       '@vue/compiler-sfc': 3.2.39
       bumpp: 8.2.1
       rimraf: 3.0.2
@@ -53,7 +53,7 @@ importers:
       '@elonehoo/vue-mac-keyboard': workspace:*
       '@iconify-json/carbon': 1.1.7
       '@unocss/reset': 0.45.18
-      '@vitejs/plugin-vue': 3.1.0
+      '@vitejs/plugin-vue': 3.1.2
       unocss: 0.45.18
       vue: 3.2.39
       vue-router: 4.1.5
@@ -62,7 +62,7 @@ importers:
       '@elonehoo/vue-mac-keyboard': link:../core
       '@iconify-json/carbon': 1.1.7
       '@unocss/reset': 0.45.18
-      '@vitejs/plugin-vue': 3.1.0_vue@3.2.39
+      '@vitejs/plugin-vue': 3.1.2_vue@3.2.39
       unocss: 0.45.18
       vue: 3.2.39
       vue-router: 4.1.5_vue@3.2.39
@@ -789,8 +789,8 @@ packages:
       magic-string: 0.26.2
     dev: true
 
-  /@vitejs/plugin-vue/3.1.0_vue@3.2.37:
-    resolution: {integrity: sha512-fmxtHPjSOEIRg6vHYDaem+97iwCUg/uSIaTzp98lhELt2ISOQuDo2hbkBdXod0g15IhfPMQmAxh4heUks2zvDA==}
+  /@vitejs/plugin-vue/3.1.2_vue@3.2.37:
+    resolution: {integrity: sha512-3zxKNlvA3oNaKDYX0NBclgxTQ1xaFdL7PzwF6zj9tGFziKwmBa3Q/6XcJQxudlT81WxDjEhHmevvIC4Orc1LhQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
@@ -799,8 +799,8 @@ packages:
       vue: 3.2.37
     dev: true
 
-  /@vitejs/plugin-vue/3.1.0_vue@3.2.39:
-    resolution: {integrity: sha512-fmxtHPjSOEIRg6vHYDaem+97iwCUg/uSIaTzp98lhELt2ISOQuDo2hbkBdXod0g15IhfPMQmAxh4heUks2zvDA==}
+  /@vitejs/plugin-vue/3.1.2_vue@3.2.39:
+    resolution: {integrity: sha512-3zxKNlvA3oNaKDYX0NBclgxTQ1xaFdL7PzwF6zj9tGFziKwmBa3Q/6XcJQxudlT81WxDjEhHmevvIC4Orc1LhQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
