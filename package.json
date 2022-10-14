@@ -17,7 +17,7 @@
     "build:dev": "pnpm -C core run build:lib"
   },
   "dependencies": {
-    "vue": "3.2.39"
+    "vue": "3.2.41"
   },
   "devDependencies": {
     "@elonehoo/eslint-config": "2.0.0",
