@@ -32,7 +32,7 @@ jobs:
         run: pnpm run example:build
 
       - name: echo cname
-        run: echo 'vue-mac-keyboard.elonehoo.xyz' > example/dist/CNAME
+        run: echo 'vue-mac-keyboard.elonehoo.me' > example/dist/CNAME
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
