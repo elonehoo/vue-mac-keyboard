@@ -34,16 +34,16 @@
     "build:lib": "vite build"
   },
   "dependencies": {
-    "vue": "^3.2.45"
+    "vue": "^3.2.47"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "3.2.0",
-    "@vue/compiler-sfc": "3.2.45",
+    "@vue/compiler-sfc": "3.2.47",
     "bumpp": "8.2.1",
     "rimraf": "3.0.2",
     "ts-node": "10.9.1",
-    "vite-plugin-dts": "1.7.1",
-    "vite-plugin-libcss": "1.0.5",
+    "vite-plugin-dts": "1.7.3",
+    "vite-plugin-libcss": "1.0.6",
     "vue-tsc": "0.40.13"
   }
 }
