@@ -39,7 +39,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "3.2.0",
     "@vue/compiler-sfc": "3.2.45",
-    "bumpp": "8.2.1",
+    "bumpp": "9.1.0",
     "rimraf": "3.0.2",
     "ts-node": "10.9.1",
     "vite-plugin-dts": "1.7.1",
